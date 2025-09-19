@@ -12,9 +12,9 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 
-Description: This is a responsive, interactive web interface built with React that allows users to compare products side-by-side. It fulfills the core requirements outlined in the take-home assignment.
+**Description**: This is a responsive, interactive web interface built with React that allows users to compare products side-by-side. It fulfills the core requirements outlined in the take-home assignment.
 
-Features:
+**Features**:  
 - Display a grid of 6–8 static products.
 - Each product shows:
   - Name
@@ -31,3 +31,4 @@ Features:
   - Remove individual items from comparison list.
   - Clear all selected items.
 - added input search bar functionlity to search for products
+
