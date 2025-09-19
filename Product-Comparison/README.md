@@ -1,3 +1,25 @@
+Description: This is a responsive, interactive web interface built with React that allows users to compare products side-by-side. It fulfills the core requirements outlined in the take-home assignment.
+
+Features:
+- Display a grid of 6–8 static products.
+- Each product shows:
+  - Name
+  - Brand
+  - Image
+  - Price
+  - 2–3 key features
+- "Add to Compare" functionality:
+  - Select up to 3 products to compare.
+  - A comparison view appears only when 2 or more products are selected.
+- Side-by-side comparison table:
+  - Highlights differences visually.
+- Clear/Remove options:
+  - Remove individual items from comparison list.
+  - Clear all selected items.
+- added input search bar functionlity to search for products
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
