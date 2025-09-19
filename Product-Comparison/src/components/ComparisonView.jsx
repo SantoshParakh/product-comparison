@@ -2,7 +2,7 @@ import React from 'react';
 import './ComparisonView.css';
 
 const ComparisonView = ({ products, onRemove, onClear }) => {
-  // Helper: Highlight different values
+  // Helper function to highlight differing values
   const getHighlightClass = (key) => {
     const values = products.map((p) => p.features[key]);
     const allSame = values.every((v) => v === values[0]);
@@ -23,19 +23,11 @@ const ComparisonView = ({ products, onRemove, onClear }) => {
             <p className="brand">{product.brand}</p>
             <p className="price">{product.price}</p>
             <ul>
-              <li className={getHighlightClass('battery')}>
-                🔋 Battery: {product.features.battery}
-              </li>
-              <li className={getHighlightClass('screen')}>
-                📱 Screen: {product.features.screen}
-              </li>
-              <li className={getHighlightClass('storage')}>
-                💾 Storage: {product.features.storage}
-              </li>
+              <li className={getHighlightClass('battery')}> 🔋 Battery: {product.features.battery} </li>
+              <li className={getHighlightClass('screen')}> 📱 Screen: {product.features.screen} </li>
+              <li className={getHighlightClass('storage')}> 💾 Storage: {product.features.storage} </li>
             </ul>
-            <button onClick={() => onRemove(product.id)} className="remove-btn">
-              Remove
-            </button>
+            <button onClick={() => onRemove(product.id)} className="remove-btn">Remove</button>
           </div>
         ))}
       </div>
