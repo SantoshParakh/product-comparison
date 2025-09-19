@@ -53,6 +53,9 @@ function ProductList() {
               key={product.id}
               product={product}
               onCompare={handleCompare}
+              isDisabled={
+                selectedProducts.length>3 || selectedProducts.includes(product)
+              }
             />
           ))
         ) : (

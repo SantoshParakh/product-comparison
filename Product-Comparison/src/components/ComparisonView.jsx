@@ -12,7 +12,7 @@ const ComparisonView = ({ products, onRemove, onClear }) => {
   return (
     <div className="comparison-container">
       <div className="comparison-header">
-        <h2>Compare Products</h2>
+        <h2>Product Comparison</h2>
         <button onClick={onClear} className="clear-btn">Clear All</button>
       </div>
       <div className="comparison-grid">
